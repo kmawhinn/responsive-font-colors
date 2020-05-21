@@ -1,28 +1,30 @@
-body, html {
-  color:	#ff8641;
-  font-family: Gotham, Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  text-align: center;
-}
+/* Base styles - mobile first */
 
-section {
-  width: 50%;
-  margin: auto;
-}
+  body {
+    color:	#ff8641;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+  }
 
-h1 {
-  color:#7b7d70;
-  font-size: 2em;
-}
+  section {
+    width: 50%;
+    margin: auto;
+  }
 
-h2 {
-  color:#4eafb8;
-  font-size: 1.5em;
-}
+  h1 {
+    color:#7b7d70;
+    font-size: 2em;
+  }
+
+  h2 {
+    color:#4eafb8;
+    font-size: 1.5em;
+  }
 
 /* Tablet size */
 
-@media (min-width: 768px) {
+@media(min-width: 768px) {
   body{
     color: #7b8f8e;
   }
@@ -30,7 +32,8 @@ h2 {
     color: #02cbd2;
   }
   h2{
-    color:#fcc02a;
+    color: red;
+    /* experiment */
   }
 }
 
